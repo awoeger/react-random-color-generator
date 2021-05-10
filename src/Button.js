@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Button(props) {
   return (
-    <>
-      <button className="btn first" onClick={props.handleRandomizeClick}>
+    <div className="button-box">
+      <button className="button" onClick={props.handleRandomizeClick}>
         Create random color
       </button>
       <div
@@ -16,6 +16,6 @@ export default function Button(props) {
       >
         <h2>{props.color}</h2>
       </div>
-    </>
+    </div>
   );
 }

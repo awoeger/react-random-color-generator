@@ -33,7 +33,7 @@ export default function Input(props) {
         value={props.userLuminosity}
         onChange={handleChangeLuminosity}
       />
-      <label htmlFor="boxWidth">Enter Box Width</label>
+      <label htmlFor="boxWidth">Enter box width</label>
       <input
         type="number"
         id="boxWidth"
@@ -41,7 +41,7 @@ export default function Input(props) {
         value={props.userBoxWidth}
         onChange={handleChangeBoxWidth}
       />
-      <label htmlFor="boxLength">Enter Box Width</label>
+      <label htmlFor="boxLength">Enter box height</label>
       <input
         type="number"
         id="boxLength"
