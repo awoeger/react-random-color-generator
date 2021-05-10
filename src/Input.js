@@ -10,7 +10,7 @@ export default function Input(props) {
   }
 
   return (
-    <>
+    <div className="input-box">
       <label htmlFor="hue">Enter hue</label>
       <input
         type="text"
@@ -27,6 +27,6 @@ export default function Input(props) {
         value={props.userLuminosity}
         onChange={handleChangeLuminosity}
       />
-    </>
+    </div>
   );
 }

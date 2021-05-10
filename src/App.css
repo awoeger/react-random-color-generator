@@ -2,6 +2,37 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1em;
   text-align: center;
+}
+
+button {
+  text-align: center;
+  display: flex;
+  margin: 30px auto;
+  font-size: 1.5em;
+  padding: 0.4em;
+  border: 2px black solid;
 }

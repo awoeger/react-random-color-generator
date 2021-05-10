@@ -3,8 +3,11 @@ import React from 'react';
 export default function Button(props) {
   return (
     <>
-      <button onClick={props.handleRandomizeClick}>Create random color</button>
+      <button className="btn first" onClick={props.handleRandomizeClick}>
+        Create random color
+      </button>
       <div
+        className="color-box"
         style={{
           backgroundColor: props.color,
           width: '300px',
