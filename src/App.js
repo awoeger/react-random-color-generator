@@ -7,6 +7,8 @@ import Input from './Input.js';
 function App() {
   const [userHue, setUserHue] = useState('');
   const [userLuminosity, setUserLuminosity] = useState('');
+  const [userBoxWidth, setUserBoxWidth] = useState(300);
+  const [userBoxLength, setUserBoxLength] = useState(300);
   const [color, setColor] = useState('#000000');
 
   const handleRandomizeClick = () => {
@@ -16,6 +18,8 @@ function App() {
         hue: userHue,
       }),
     );
+    setUserBoxWidth(userBoxWidth + 1);
+    setUserBoxLength(userBoxLength + 1);
   };
   return (
     <>
@@ -27,8 +31,17 @@ function App() {
         userLuminosity={userLuminosity}
         handleRandomizeClick={handleRandomizeClick}
         color={color}
+        userBoxWidth={userBoxWidth}
+        userBoxLength={userBoxLength}
+        setUserBoxLength={setUserBoxLength}
+        setUserBoxWidth={setUserBoxWidth}
       />
-      <Button handleRandomizeClick={handleRandomizeClick} color={color} />
+      <Button
+        handleRandomizeClick={handleRandomizeClick}
+        color={color}
+        userBoxWidth={userBoxWidth}
+        userBoxLength={userBoxLength}
+      />
     </>
   );
 }

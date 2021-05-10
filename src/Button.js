@@ -10,8 +10,8 @@ export default function Button(props) {
         className="color-box"
         style={{
           backgroundColor: props.color,
-          width: '300px',
-          height: '300px',
+          width: props.userBoxWidth + 'px',
+          height: props.userBoxLength + 'px',
         }}
       >
         <h2>{props.color}</h2>
