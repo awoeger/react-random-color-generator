@@ -1,12 +1,12 @@
 import './App.css';
-import React from 'react';
-import Button from './Button.js';
+import React, { useState } from 'react';
+import Input from './Input.js';
 
 function App() {
   return (
     <>
       <h1>Random Color Generator</h1>
-      <Button />
+      <Input />
     </>
   );
 }
