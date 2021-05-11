@@ -9,7 +9,7 @@ function App() {
   const [userHue, setUserHue] = useState('');
   const [userLuminosity, setUserLuminosity] = useState('');
   const [userBoxWidth, setUserBoxWidth] = useState(400);
-  const [userBoxLength, setUserBoxLength] = useState(330);
+  const [userBoxLength, setUserBoxLength] = useState(310);
   const [color, setColor] = useState('#eeeeee');
 
   // Adding my Event Handler Function to my parent component

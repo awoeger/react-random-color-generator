@@ -1,7 +1,11 @@
 export default function Button(props) {
   return (
     <div className="button-box">
-      <button className="button" onClick={props.handleRandomizeClick}>
+      <button
+        style={{ borderColor: props.color, borderWidth: '2px' }}
+        className="button"
+        onClick={props.handleRandomizeClick}
+      >
         Create random color
       </button>
       <div
