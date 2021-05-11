@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Button(props) {
   return (
     <div className="button-box">
@@ -12,7 +10,9 @@ export default function Button(props) {
           backgroundColor: props.color,
           width: props.userBoxWidth + 'px',
           height: props.userBoxLength + 'px',
-          //border: props.color,
+          transition: 'all .5s ease',
+          WebkitTransition: 'all .5s ease',
+          MozTransition: 'all .5s ease',
         }}
       >
         <h2>{props.color}</h2>

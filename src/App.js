@@ -1,5 +1,4 @@
 import './App.css';
-import { css, jsx } from '@emotion/react';
 import randomColor from 'randomcolor';
 import React, { useState } from 'react';
 import Button from './Button.js';
@@ -10,7 +9,7 @@ function App() {
   const [userHue, setUserHue] = useState('');
   const [userLuminosity, setUserLuminosity] = useState('');
   const [userBoxWidth, setUserBoxWidth] = useState(400);
-  const [userBoxLength, setUserBoxLength] = useState(252);
+  const [userBoxLength, setUserBoxLength] = useState(330);
   const [color, setColor] = useState('#eeeeee');
 
   // Adding my Event Handler Function to my parent component

@@ -37,6 +37,13 @@ input {
   margin-bottom: 30px;
   font-size: 1em;
   text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #9ca19c;
 }
 
 .button {
@@ -48,7 +55,6 @@ input {
   font-size: 24px;
   text-align: center;
   cursor: pointer;
-  outline: none;
   color: black;
   background-color: #dce0dd;
   border-radius: 15px;
