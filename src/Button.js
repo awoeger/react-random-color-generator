@@ -12,6 +12,7 @@ export default function Button(props) {
           backgroundColor: props.color,
           width: props.userBoxWidth + 'px',
           height: props.userBoxLength + 'px',
+          //border: props.color,
         }}
       >
         <h2>{props.color}</h2>

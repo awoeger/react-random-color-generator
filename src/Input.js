@@ -1,4 +1,5 @@
 export default function Input(props) {
+  // Adding the onChange Event Handlers for the input fields and getting the input values
   function handleChangeHue(event) {
     props.setUserHue(event.currentTarget.value);
   }
@@ -14,7 +15,7 @@ export default function Input(props) {
   function handleChangeBoxLength(event) {
     props.setUserBoxLength(event.currentTarget.value);
   }
-
+  // Creating the input and label fields
   return (
     <div className="input-box">
       <label htmlFor="hue">Enter hue</label>
