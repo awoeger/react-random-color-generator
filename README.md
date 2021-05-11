@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Random Color Generator
+
+User can create a random color and choose hue and luminosity as well.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
