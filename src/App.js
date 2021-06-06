@@ -1,8 +1,15 @@
 import './App.css';
+import { css } from '@emotion/react';
 import randomColor from 'randomcolor';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Button from './Button.js';
 import Input from './Input.js';
+
+const heading = css`
+  text-align: center;
+  margin: 100px;
+  font-size: 50px;
+`;
 
 function App() {
   // Adding all the variables that I need in my children components into my parent component
@@ -26,7 +33,7 @@ function App() {
   // Returning the Input and the Button Component
   return (
     <>
-      <h1>Random Color Generator</h1>
+      <h1 css={heading}>Random Color Generator</h1>
       <div className="container">
         <Input
           setUserHue={setUserHue}
