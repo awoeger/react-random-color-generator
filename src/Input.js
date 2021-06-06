@@ -20,7 +20,6 @@ export default function Input(props) {
     <div className="input-box">
       <label htmlFor="hue">Enter hue</label>
       <input
-        type="text"
         id="hue"
         placeholder="blue"
         value={props.userHue}
@@ -28,7 +27,6 @@ export default function Input(props) {
       />
       <label htmlFor="luminosity">Enter luminosity</label>
       <input
-        type="text"
         id="luminosity"
         placeholder="dark"
         value={props.userLuminosity}

@@ -21,8 +21,6 @@ function App() {
         hue: userHue,
       }),
     );
-    setUserBoxWidth(userBoxWidth);
-    setUserBoxLength(userBoxLength);
   };
 
   // Returning the Input and the Button Component
@@ -35,8 +33,6 @@ function App() {
           setUserLuminosity={setUserLuminosity}
           userHue={userHue}
           userLuminosity={userLuminosity}
-          handleRandomizeClick={handleRandomizeClick}
-          color={color}
           userBoxWidth={userBoxWidth}
           userBoxLength={userBoxLength}
           setUserBoxLength={setUserBoxLength}
